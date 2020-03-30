@@ -21,8 +21,9 @@ def print_items2(List):
         sleep(1)
         print(item)
 
-print(quicksort([10,5,2,3]))
-t = [2,4,6,8,10]
-print_items(t)
-print_items2(t)
+if __name__ == "__main__":
+    print(quicksort([10,5,2,3]))
+    t = [2,4,6,8,10]
+    print_items(t)
+    print_items2(t)
 
