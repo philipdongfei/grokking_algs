@@ -63,3 +63,7 @@ def find_lowest_cost_node(costs,processed):
         if cost < lowest_code and node not in processed:
             lowest_cost_node = node
     return lowest_cost_node
+
+if __name__ == "__main__":
+    dijkstra(graph, costs, parents, processed)
+
