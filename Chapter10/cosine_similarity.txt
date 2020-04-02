@@ -1,0 +1,1 @@
+similarity = cos(\theta) = \frac {A \cdot B} {||A||||B||} = \frac {\sum_{i=1}^n A_iB_i}{ \sqrt{\sum_{i=1}^n A_i^2} \sqrt{\sum_{i=1}^n B_i^2}}
